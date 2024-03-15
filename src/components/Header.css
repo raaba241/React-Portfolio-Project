@@ -1,0 +1,33 @@
+/* Header styles */
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    color: #ff6600;
+}

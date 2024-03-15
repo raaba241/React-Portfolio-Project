@@ -1,1 +1,1 @@
-# React-Portfolio-Project
+# StudentMiniProject-Demo
