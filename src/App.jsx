@@ -5,6 +5,8 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume.jsx';
 import Footer from './components/Footer';
+import './App.css';
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('AboutMe');
@@ -22,7 +24,7 @@ function App() {
     }
   }
   return (
-    <div>
+    <div className='mainPage'>
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       {renderSection()}
       <Footer />

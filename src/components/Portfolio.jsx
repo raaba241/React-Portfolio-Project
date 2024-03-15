@@ -1,10 +1,10 @@
 import React from 'react';
+import './Portfolio.css';
 
 function Portfolio() {
-  // This is a placeholder for your projects data
   const projects = [
     // Example project
-    { title: "Project 1", imageUrl: "path_to_image", liveUrl: "link_to_live_version", repoUrl: "link_to_repository" },
+    { title: "Project 1", imageUrl: './assets/ExampleImage.png', liveUrl: "link_to_live_version", repoUrl: "link_to_repository" },
     // Add more projects as needed
   ];
 

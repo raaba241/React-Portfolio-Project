@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282834;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+
+}
+
+footer a {
+    color: #fbb361;
+    text-decoration: none;
+    margin: 0 10px;
+    /* Adds spacing between the links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

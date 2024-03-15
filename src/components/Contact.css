@@ -1,0 +1,59 @@
+section {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+textarea {
+    background-color: #3c4049;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    resize: none;
+}
+
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #61dafb;
+    box-shadow: 0 0 0 2px rgba(97, 218, 251, 0.5);
+}
+
+
+button {
+    background: linear-gradient(135deg, #6e8efb, #88d3ce);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #88d3ce, #6e8efb);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+}

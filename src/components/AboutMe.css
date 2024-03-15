@@ -1,0 +1,25 @@
+section {
+    background: linear-gradient(135deg, #fb6e6e24, #88d3ce) ;
+    color: black;
+    padding: 40px;
+    max-width: 700px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 230, 0);
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: 'Comic Sans MS', 'Comic Sans', 'cursive'
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', 'Comic Sans', 'cursive'
+}

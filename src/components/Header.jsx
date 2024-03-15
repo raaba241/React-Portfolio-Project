@@ -1,10 +1,11 @@
 import React from 'react';
 import './Header.css';
 
+
 function Header({ activeSection, setActiveSection }) {
   return (
     <header>
-      <h1>Raaba's Portfolio Website</h1>
+      <h1>RAABA'S PORTFOLIO WEBSITE</h1>
       <nav>
         <ul>
           {['AboutMe', 'Portfolio', 'Contact', 'Resume'].map((section) => (
