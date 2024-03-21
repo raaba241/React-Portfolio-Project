@@ -8,6 +8,7 @@ function Portfolio() {
     // Add more projects as needed
   ];
 
+  // Return the portfolio section
   return (
     <section>
       <h2>Portfolio</h2>

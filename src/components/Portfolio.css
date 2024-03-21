@@ -1,50 +1,58 @@
 
+/* Styling for the section element */
 section {
-    background-color: #282c34;
-    color: white;
-    padding: 40px;
-    margin: 40px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  
-  h2 {
-    color: #61dafb;
-    margin-bottom: 30px;
-  }
-  
-  div > div {
-    background-color: #3c4049;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-  }
-  
-  div > div:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  }
-  
-  h3 {
-    margin-top: 0;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 20px;
-    border-radius: 4px;
-  }
-  
-  a {
-    display: inline-block;
-    margin-right: 15px;
-    color: #61dafb;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Styling for the h2 element */
+h2 {
+  color: #61dafb;
+  margin-bottom: 30px;
+}
+
+/* Styling for the nested div elements */
+div > div {
+  background-color: #3c4049;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for the nested div elements */
+div > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Styling for the h3 element */
+h3 {
+  margin-top: 0;
+}
+
+/* Styling for the img element */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Styling for the anchor elements */
+a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+/* Hover effect for the anchor elements */
+a:hover {
+  text-decoration: underline;
+}
