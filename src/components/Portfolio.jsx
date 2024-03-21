@@ -4,7 +4,7 @@ import './Portfolio.css';
 function Portfolio() {
   const projects = [
     // Example project
-    { title: "Project 1", imageUrl: './assets/ExampleImage.png', liveUrl: "link_to_live_version", repoUrl: "link_to_repository" },
+    { title: "Logo Generator", imageUrl: './assets/ExampleImage.png', liveUrl: "link_to_live_version", repoUrl: "https://github.com/raaba241/Logo-Generator" },
     // Add more projects as needed
   ];
 
