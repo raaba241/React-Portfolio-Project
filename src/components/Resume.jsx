@@ -4,7 +4,7 @@ import './Resume.css';
 function Resume() {
   return (
     <section>
-      <a href="/path/to/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      <a href="C:\Users\panda\React-Portfolio-Project\public\resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
       <h3>Proficiencies</h3>
       <ul className='skills'>
         <li>HTML/CSS</li>

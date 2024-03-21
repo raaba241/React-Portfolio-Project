@@ -6,6 +6,9 @@ function Portfolio() {
     // Example project
     { title: "Logo Generator", imageUrl: './assets/ExampleImage.png', liveUrl: "link_to_live_version", repoUrl: "https://github.com/raaba241/Logo-Generator" },
     // Add more projects as needed
+    { title: "Employee Tracker", imageUrl: './assets/ExampleImage.png', liveUrl: "link_to_live_version", repoUrl: "https://github.com/raaba241/Employee-Tracker" },
+    { title: "Logo Generator", imageUrl: './assets/ExampleImage.png', liveUrl: "link_to_live_version", repoUrl: "https://github.com/raaba241/Logo-Generator" },
+    { title: "Logo Generator", imageUrl: './assets/ExampleImage.png', liveUrl: "link_to_live_version", repoUrl: "https://github.com/raaba241/Logo-Generator" },
   ];
 
   // Return the portfolio section
