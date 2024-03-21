@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import './App.css';
 
 
+// App component to render the main page
+
 function App() {
   const [activeSection, setActiveSection] = useState('AboutMe');
 
@@ -23,6 +25,8 @@ function App() {
         return <AboutMe />;
     }
   }
+
+  // Return the main page
   return (
     <div className='mainPage'>
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 
+// Setting up the Contact component
 function Contact() {
   const [name, setName] = useState(''); 
   const [email, setEmail] = useState('');
@@ -23,6 +24,7 @@ function Contact() {
     alert('Form submitted'); // Placeholder action
   };
 
+  // Return the form
   return (
     <section>
       <form onSubmit={handleSubmit}>

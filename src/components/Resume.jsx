@@ -1,5 +1,6 @@
 import React from 'react';
 import './Resume.css';
+// resume component to display resume and proficiencies
 function Resume() {
   return (
     <section>
