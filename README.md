@@ -16,7 +16,7 @@ as a person and as a web developer.
 No need to install as website is deployed to netlify
 
 ## Usage
-The app is deployed on: 
+The app is deployed on: https://react-portfolio-project-raaba241.netlify.app/
 
 ## License
 This project is licensed under the MIT License.
