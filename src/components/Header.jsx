@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 
+// Header component to display the header and navigation
 
 function Header({ activeSection, setActiveSection }) {
   return (
